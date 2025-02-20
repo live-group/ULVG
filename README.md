@@ -1,0 +1,4 @@
+### Training
+```
+sh train.sh
+```
