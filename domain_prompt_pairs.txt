@@ -1,0 +1,8 @@
+an image without fog--an image with fog
+an image without rain--an image with rain
+an image without dark light--an image with dark light
+an image without snow--an image with snow
+an image without cloud--an image with cloud
+an image without stormy--an image with storm
+an image without sunshine--an image with sunshine
+an image without bright light--an image with bright light
