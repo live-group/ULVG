@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Contents
 - [Installation](#Installation)
 - [Datasets](#Datasets)
@@ -37,6 +38,9 @@ Download [Diverse Weather](https://github.com/AmingWu/Single-DGOD) Datasets and 
 
 ### Training model
 Run the following command to train the model:
+=======
+### Training
+>>>>>>> 8e1f0b0c9aca1e74d4d8234bc3d7f6c697df18cf
 ```
 sh train.sh
 ```
