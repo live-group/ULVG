@@ -121,9 +121,8 @@ class GeneralizedRCNN_CLIP(GeneralizedRCNN):
                 assert "proposals" in batched_inputs[0]
                 proposals = [x["proposals"].to(self.device) for x in batched_inputs]
 
-            results, _ = self.roi_heads(images, features, proposals, None, None, None,
-                                        self.clip_model.enc.attnpool, None, None, None,
-                                        None, None, None,
+            results, _ = self.roi_heads(images, features, proposals, None,
+                                        self.clip_model.enc.attnpool, None, None,
                                         self.clip_model.class_causal_text_basisvectors, self.clip_model.class_noncausal_text_basisvectors)
         else:
             detected_instances = [x.to(self.device) for x in detected_instances]
