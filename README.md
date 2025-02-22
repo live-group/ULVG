@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 ### Contents
 - [Installation](#Installation)
 - [Datasets](#Datasets)
-- [Training model](#Training model)
+- [Training](#Training)
 
 ### Installation
 Our code is based on [Detectron2](https://github.com/facebookresearch/detectron2)
@@ -36,11 +35,8 @@ path-to-parent-dir/
 Download [Diverse Weather](https://github.com/AmingWu/Single-DGOD) Datasets and place in the structure as shown.
 
 
-### Training model
-Run the following command to train the model:
-=======
 ### Training
->>>>>>> 8e1f0b0c9aca1e74d4d8234bc3d7f6c697df18cf
+Run the following command to train the model:
 ```
 sh train.sh
 ```
