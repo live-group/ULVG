@@ -3,10 +3,9 @@
 from .diverse_weather import register_dataset as register_diverse_weather
 from .pascal_voc_adaptation import register_all_pascal_voc as register_pascal_voc
 from .comic_water_adaptation import register_dataset as register_comic_water
-from .clipart1k_watercolor2k import register_dataset as register_clipart_watercolor
 import os 
 
-_root = os.path.expanduser(os.getenv("DETECTRON2_DATASETS", "/home/data/datasets"))
+_root = os.path.expanduser(os.getenv("DETECTRON2_DATASETS", "/home/zhang/E/zzl/datasets"))
 DEFAULT_DATASETS_ROOT = "data/"
 
 

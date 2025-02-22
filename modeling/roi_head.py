@@ -14,7 +14,6 @@ from detectron2.data import MetadataCatalog
 
 from detectron2.modeling.roi_heads.roi_heads import ROI_HEADS_REGISTRY,  Res5ROIHeads
 from detectron2.structures import Boxes, ImageList, Instances, pairwise_iou
-from .box_predictor import ClipFastRCNNOutputLayers
 from detectron2.modeling.roi_heads.fast_rcnn import FastRCNNOutputLayers
 
 def select_foreground_proposals(
